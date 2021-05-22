@@ -1,0 +1,3 @@
+FROM amazoncorretto:11-alpine-jdk
+WORKDIR /side
+COPY ./cmdline-jmxclient-0.10.3.jar jmx-client.jar
